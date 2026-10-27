@@ -104,7 +104,7 @@ function renderList(amount, prefix) {
     const valid = isValidImei(imei);
     const badge = document.createElement("span");
     badge.className = valid ? "badge" : "badge invalid";
-    badge.textContent = valid ? "✓ Luhn valide" : "✗ Invalide";
+    badge.textContent = valid ? "✓ valide" : "✗ Invalide";
 
     item.append(number, checkbox, value, badge);
     results.append(item);
