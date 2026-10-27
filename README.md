@@ -1,2 +1,2 @@
-# data free
-512mo
+# IMEI
+GENERETOR
